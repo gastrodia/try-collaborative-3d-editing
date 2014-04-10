@@ -1,0 +1,11 @@
+{
+  "name": "try-socketio",
+  "version": "0.0.0",
+  "dependencies": {
+    "socket.io": "~0.9.15",
+    "requirejs": "~2.1.11",
+    "socket.io-client": "~0.9.16",
+    "three.js": "*",
+    "jquery": "~2.1.0"
+  }
+}
