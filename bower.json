@@ -6,6 +6,10 @@
     "requirejs": "~2.1.11",
     "socket.io-client": "~0.9.16",
     "three.js": "*",
-    "jquery": "~2.1.0"
+    "jquery": "~2.1.0",
+    "threejs-stats": "*",
+    "threejs-controls": "*",
+    "dat.gui": "*",
+    "threex.domevents": "*"
   }
 }

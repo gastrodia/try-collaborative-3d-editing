@@ -17,17 +17,15 @@ server.listen(80);
 
 
 io.sockets.on('connection', function (socket) {
-    socket.emit('news', { hello: 'world' });
-    socket.on('my other event', function (data) {
-        console.log(data);
-    });
 
     socket.on('add-cube',function(data){
-
+        console.log(data);
+        socket.broadcast.emit("add-cube",data);
     });
 
     socket.on("delete-cube",function(data){
-
+        console.log(data);
+        socket.broadcast.emit("delete-cube",data);
     });
 
     socket.on("edit-cube",function(data){
@@ -35,7 +33,8 @@ io.sockets.on('connection', function (socket) {
     });
 
     socket.on("color-cube",function(data){
-
+        console.log(data);
+        socket.broadcast.emit("color-cube",data);
     });
 
     socket.on("move-cube",function(data){
