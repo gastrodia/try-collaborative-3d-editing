@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "socket.io": "^0.9.16",
-    "express": "^4.0.0"
+    "express": "^4.0.0",
+    "ws": "^0.4.31"
   },
   "devDependencies": {
     "grunt": "^0.4.4",
