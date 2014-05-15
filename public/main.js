@@ -11,7 +11,7 @@ require(['jquery','three','socket.io-client','controls',"threejs-stats","dat.gui
     document.body.appendChild(renderer.domElement);
 
     var domEvents   = new THREEx.DomEvents(camera, renderer.domElement);
-    var socket = io.connect('http://localhost');
+    var socket = io.connect(location.origin);
 
 
     var stats = initStats();
