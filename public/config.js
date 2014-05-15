@@ -19,5 +19,6 @@ require.config({
     controls: "components/threejs-controls/controls/OrbitControls",
     "dat.gui": "components/dat.gui/dat.gui",
     "threex.domevents": "components/threex.domevents/threex.domevents"
-  }
+  },
+  waitSeconds:100
 });
